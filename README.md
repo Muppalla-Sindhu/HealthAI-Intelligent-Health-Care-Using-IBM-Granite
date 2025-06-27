@@ -50,21 +50,21 @@ The system uses FastAPI, HTML/CSS/JavaScript SPA frontend, and IBM WatsonX Grani
 
 ## 📁 Folder Structure
 HealthAI/
-├── static/                      # All frontend assets
-│   ├── css/
-│   │   └── style.css            # UI styles for entire SPA
-│   ├── img/
-│   │   └── bg.jpg               # Background image
-│   └── js/
-│       └── app.js              # JavaScript for routing and API calls
+├── static/                      # All frontend assets|
+│   ├── css/|
+│   │   └── style.css            # UI styles for entire SPA|
+│   ├── img/|
+│   │   └── bg.jpg               # Background image|
+│   └── js/|
+│       └── app.js              # JavaScript for routing and API calls|
 │
-├── templates/
-│   └── index.html              # Main frontend layout rendered by FastAPI
-│
-├── main.py                     # FastAPI backend logic + routes
-├── .env                        # IBM Watson API keys and config (keep secret)
-├── venv/                       # Python virtual environment
-└── __pycache__/                # Python bytecode cache (auto-generated)
+├── templates/|
+│   └── index.html              # Main frontend layout rendered by FastAPI|
+│|
+├── main.py                     # FastAPI backend logic + routes|
+├── .env                        # IBM Watson API keys and config (keep secret)|
+├── venv/                       # Python virtual environment|
+└── __pycache__/                # Python bytecode cache (auto-generated)|
 
 
 ## ⚙️ Setup Instructions
