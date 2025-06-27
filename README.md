@@ -94,62 +94,6 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-
-## ⚙️ Setup Instructions
-
-### ✅ Prerequisites
-
-- Python 3.8+
-- Git
-- IBM Cloud account with Watson Machine Learning access
-
-### 📦 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/HealthAI.git
-cd HealthAI
-
-# Create and activate a virtual environment
-python -m venv venv
-
-# On Windows:
-venv\Scripts\activate
-
-# On Linux/macOS:
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-## ⚙️ Setup Instructions
-
-### ✅ Prerequisites
-
-- Python 3.8+
-- Git
-- IBM Cloud account with Watson Machine Learning access
-
----
-
-### 📦 Installation
-
-### Clone the repository
-git clone https://github.com/your-username/HealthAI.git
-cd HealthAI
-
-### Create and activate a virtual environment
-python -m venv venv
-
-### On Windows:
-venv\Scripts\activate
-
-### On Linux/macOS:
-source venv/bin/activate
-
-### Install dependencies
-pip install -r requirements.txt
 ```
 
 📌Create a .env file in the root directory with your IBM WatsonX credentials:IBM_API_KEY="your-ibm-api-key"
