@@ -1,4 +1,4 @@
-🧠 HealthAI: Intelligent Healthcare Assistant Using IBM Granite
+#🧠 HealthAI: Intelligent Healthcare Assistant Using IBM Granite
 HealthAI is a smart healthcare assistant powered by IBM Watson Machine Learning and the Granite 13B model. It provides real-time, AI-driven support for users seeking accurate health insights, symptom prediction, home remedies, treatment suggestions, and vital analytics.
 
 🎯 Project Overview
