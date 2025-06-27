@@ -15,7 +15,7 @@ HealthAI helps users:
 - 📈 **Monitor health metrics** (heart rate, BP, glucose)
 - 💡 **Receive daily health tips**
 
-The system uses FastAPI, HTML/CSS/JavaScript SPA frontend, and IBM WatsonX Granite 13B Instruct v2.
+The system uses **FastAPI, HTML/CSS/JavaScript SPA frontend**, and **IBM WatsonX Granite 13B Instruct v2**.
 
 ---
 
