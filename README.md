@@ -49,22 +49,51 @@ The system uses FastAPI, HTML/CSS/JavaScript SPA frontend, and IBM WatsonX Grani
 ---
 
 ## 📁 Folder Structure
+```bash
 HealthAI/
-├── static/                      # All frontend assets|
-│   ├── css/|
-│   │   └── style.css            # UI styles for entire SPA|
-│   ├── img/|
-│   │   └── bg.jpg               # Background image|
-│   └── js/|
-│       └── app.js              # JavaScript for routing and API calls|
+├── static/                      # All frontend assets
+│   ├── css/
+│   │   └── style.css            # UI styles for entire SPA
+│   ├── img/
+│   │   └── bg.jpg               # Background image
+│   └── js/
+│       └── app.js              # JavaScript for routing and API calls
 │
-├── templates/|
-│   └── index.html              # Main frontend layout rendered by FastAPI|
-│|
-├── main.py                     # FastAPI backend logic + routes|
-├── .env                        # IBM Watson API keys and config (keep secret)|
-├── venv/                       # Python virtual environment|
-└── __pycache__/                # Python bytecode cache (auto-generated)|
+├── templates/
+│   └── index.html              # Main frontend layout rendered by FastAPI
+│
+├── main.py                     # FastAPI backend logic + routes
+├── .env                        # IBM Watson API keys and config (keep secret)
+├── venv/                       # Python virtual environment
+└── __pycache__/                # Python bytecode cache (auto-generated)
+```
+
+## ⚙️ Setup Instructions
+
+### ✅ Prerequisites
+
+- Python 3.8+
+- Git
+- IBM Cloud account with Watson Machine Learning access
+
+### 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/HealthAI.git
+cd HealthAI
+
+# Create and activate a virtual environment
+python -m venv venv
+
+# On Windows:
+venv\Scripts\activate
+
+# On Linux/macOS:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
 
 
 ## ⚙️ Setup Instructions
